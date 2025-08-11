@@ -1,0 +1,26 @@
+git init
+git status
+git log
+git log --oneline
+git add file.txt
+git add .
+git commit -m "Message"
+git commit -am "Message"
+git branch
+git branch new-branch
+git checkout new-branch
+git checkout -b new-branch
+git merge branch-name
+git branch -d branch-name
+git remote add origin https://github.com/username/repo.git
+git remote -v
+git branch -M main
+git push -u origin main
+git push
+git pull origin main
+git fetch
+git merge origin/main
+git clone https://github.com/username/repo.git
+git restore file.txt
+git reset --hard HEAD
+git reset --soft HEAD~1
